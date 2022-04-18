@@ -41,4 +41,4 @@ jobs:
         run: npm install --global surge
          
       - name: deply to surge
-        run: surge ./build https://saqib-react1.surge.sh --token ${{secrets.TODATY_SURGE_TOKEN}}
+        run: surge ./build https://saqib-react1.surge.sh/ --token ${{secrets.TODATY_SURGE_TOKEN}}
